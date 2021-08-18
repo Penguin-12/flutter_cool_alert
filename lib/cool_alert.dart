@@ -127,8 +127,10 @@ class CoolAlert {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(borderRadius),
       ),
-      content: CoolAlertContainer(
-        options: options,
+      content: SingleChildScrollView(
+        child: CoolAlertContainer(
+          options: options,
+        ),
       ),
     );
 
